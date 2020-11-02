@@ -34,28 +34,47 @@ class MyProfile extends StatelessWidget {
                   letterSpacing: 2.5,
                 ),
               ),
-              Container(
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                padding: EdgeInsets.only(left: 10.0, right: 10.0),
-                height: 30.0,
-                color: Colors.white,
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.mail_outline_outlined,
-                      size: 20.0,
-                    ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
+             Card(
+               margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+               child: Container(
+                 child: Row(
+                   children: [
+                     Icon(
+                       Icons.mail_outline_outlined,
+                       size: 25.0,
+                     ),
                     Text(
-                      'obi_wan@iessaladillo.es',
-                      style: TextStyle(
-                        fontFamily: 'Roboto',
-                        fontSize: 15.0,
-                      ),
+                      "obi_wan@iessaladillo.es",
+                      style:TextStyle(
+                        fontFamily: "Roboto",
+                            fontSize:15.0,
+                      )
                     ),
-                  ],
+                   ],
+                 ),
+
+               ),
+
+
+             ),
+              Card(
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: Container(
+                  child: Row(
+                    children: [
+                      Icon(
+                        Icons.phone_android_outlined,
+                        size: 25.0,
+                      ),
+                      Text(
+                          "634937463",
+                          style:TextStyle(
+                            fontFamily: "Roboto",
+                            fontSize:15.0,
+                          )
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ],
